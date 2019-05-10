@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    background: linear-gradient(rgb(0, 153, 255),rgb(153, 214, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation{
+  height: 8%;
+  /* border: 1px solid black; */
+}
+
+#airline{
+  height: 160px;
+  background: white;
+  /* text-align: center;
+  align-content: center; */
+  /* border: 1px black solid; */
+  overflow: hidden;
+}
+
+#airline img{
+  background: white;
+  padding: 5px;
+  margin: 5px;
+  height: inherit;
+  margin-left: 10%;
+  margin-right: auto;
+
+}
+
+#titles{
+    /* border: 1px solid black; */
+    background: #f2f2f2;
+}
+
+#info{
+    height: 60%;
+    background: white;
+}
+
+.col-sm-6{
+  /* border: 1px solid black; */
+}
+
+.container{
+  /* border: 1px red solid; */
+}
+
+#tables {
+  /* border: 1px green solid; */
+  height: 100%;
+
+}
+
+#fees{
+    border-right: 1px solid;
+}
+
+#contacts{
+  margin: 20px 25% 20px 0;
+    line-height: 80%;
+}
